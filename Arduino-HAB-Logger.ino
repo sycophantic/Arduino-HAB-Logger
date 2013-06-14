@@ -152,7 +152,7 @@ void loop()
           logfile << "0" <<(int)hour << ":";
         }
         else {
-          logfile << int(hour) << ",";
+          logfile << int(hour) << ":";
         }
 
         if (minute < 10) {
