@@ -208,10 +208,3 @@ void beep_on(){
 void beep_off(){
   analogWrite(2,0);
 }
-
-
-
-
-
-
-
